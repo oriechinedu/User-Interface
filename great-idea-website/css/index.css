@@ -66,27 +66,38 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.container {
+main {
 padding: 20px;
 width: 80%;
 margin: 0 auto;
+
 }
 .logo {
 display: inline-block;
 vertical-align: middle;
 margin-left: auto;
 }
+.navigation {
+	background-color: #9AD2CB;
+	padding: 20px;
+	width: 100%;
+	position: fixed;
+	margin-bottom: 100px;
+
+}
 .navbar {
 display: inline-block;
 width: 80%;
+padding-left: 100px;
+margin-left: 50px;
 }
 .navbar a {
 text-decoration: none;
-color: #ccc;
+color: #000;
 padding: 0 2rem;
 }
 header {
-margin: 20px auto;
+margin-top: 100px;
 }
 .header-left {
 display: inline-block;
